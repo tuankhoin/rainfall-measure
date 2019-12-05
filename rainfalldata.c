@@ -4,12 +4,6 @@
 #include <math.h>
 #include <strings.h>
 
-/**
-	valgrind
-	gcc ... -g
-	
-**/
-
 #define HEADER 1
 #define MAX_YEAR 3000
 #define MONTHS 12
@@ -299,7 +293,7 @@ double year_max(rainfall_t *data, int ndata, int year) {
 }
 
 int round_up(double a){
-	return a+1;
+	return a + (a-a/100*100 != 0);
 }
 
 void s4_head_print(rainfall_t *data, int ndata, int year) {
