@@ -23,8 +23,8 @@ Add further functionality so that for each month of the year the average rainfal
     `
     S2, Jan, 10 values, 2000-2009, mean of 23.5mm
     S2, Feb, 10 values, 2000-2009, mean of 45.5mm
-    S2, Mar, 9 values, 2000-2009, mean of 33.8mm
-    <plus lines for the other eight months>
+    S2, Mar,  9 values, 2000-2009, mean of 33.8mm
+        <plus lines for the other eight months>
     S2, Dec, 10 values, 2000-2009, mean of 48.6mm
     `
     
@@ -35,7 +35,7 @@ This step will point out if there is an overall downward or upward trend over th
     `
     S3, Jan, 10 values, 2000-2009, tau of -0.11
     S3, Feb, 10 values, 2000-2009, tau of -0.11
-    S3, Mar, 9 values, 2000-2009, tau of -0.11
+    S3, Mar,  9 values, 2000-2009, tau of -0.11
     <plus lines for the other eight months>
     S3, Dec, 10 values, 2000-2009, tau of 0.36
     `
@@ -46,3 +46,5 @@ From the processed data, a graph will be drawn, with the two digits used in each
 bar are the last two digits of the year number that is being plotted, and `****` represents the average value of that month. An example output:
 
 ![rainfall](rainfall.PNG)
+
+*Details of the desciption are taken from The University of Melbourne, Department of Computing and Information Systems, 2019*
